@@ -13,7 +13,7 @@ LEFT JOIN productlines p1
 ON p.productLine=p1.productLine;
 
 -- Question Three
--- I the ORDER BY clause in DESC order because the ASC was returning 10 null values
+-- I used the ORDER BY clause in DESC order because the ASC was returning 10 null values
 SELECT o.orderDate,
        o.shippedDate,
        o.status,
